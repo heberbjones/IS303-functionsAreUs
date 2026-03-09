@@ -1,5 +1,5 @@
 # Task Plan
-I figure we can put all the tasks we need to do in one place, and then we can assign them to people. I figure we can each make a file that does one of these four functions. I don't think we need a function for the last one. I can make the last file (MainProgram.py) that combines the functions if you guys want. - Heber
+I figure we can put all the tasks we need to do in one place, and then we can assign them to people. I figure we can each make a file that does one of these five functions.
 
 ## Functions to Create
 1. Display an introduction to the game explaining rules and prompt for their name and display that in the welcome message. Return the name to the main program and store it in variable so it can be used throughout the program.
@@ -13,4 +13,4 @@ I figure we can put all the tasks we need to do in one place, and then we can as
 5. Display the final record for a team. Receive the home team data and display information.
 
 ## Heber Tasks
-I'll work on function 1 for now, if it comes to it I can do function 4 as well. I'm also planning on combining it ll into the MainProgram.py file.
+I'll work on function 1 for now, if it comes to it I can do function 4 as well. I'm also planning on combining it all into the MainProgram.py file.

@@ -8,5 +8,8 @@ Receive the home team data and display information.
 """
 
 import function1_display_intro
+import function2_display_menu
+import function3_choose_teams
+import function4_play_the_game
 
 sPlayerName = function1_display_intro.display_intro()

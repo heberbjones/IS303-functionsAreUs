@@ -12,6 +12,10 @@ import function2_display_menu
 import function3_choose_teams
 import function4_play_the_game
 
+# For function 4 to work there has to be a default team name. 
+# Function 3 should return a list that replaces this list. - Heber
+lstTeamNames = ["Home Team", "Away Team"]
+
 sPlayerName = function1_display_intro.display_intro()
 
 #calling function2_display_menu and running it inside a loop
@@ -19,8 +23,8 @@ choice = 0
 while choice != 3:
     choice = function2_display_menu.display_menu()
     if choice == 1:
-        function3_choose_teams.choose_team()
+        lstTeamNames = function3_choose_teams.choose_team()
     elif choice == 2:
-        function4_play_the_game.play_game()
+        function4_play_the_game.play_game(lstTeamNames)
     elif choice == 3:
         print("Goodbye!")

@@ -23,4 +23,6 @@ while choice != 3:
     elif choice == 2:
         function4_play_the_game.play_game()
     elif choice == 3:
+        function5_display_record.display_record()
+    elif choice == 4:
         print("Goodbye!")

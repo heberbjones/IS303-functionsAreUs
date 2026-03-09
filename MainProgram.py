@@ -13,3 +13,8 @@ import function3_choose_teams
 import function4_play_the_game
 
 sPlayerName = function1_display_intro.display_intro()
+
+# To do function 4 I need function 3 to return both team names into 
+# variables here. - Heber
+
+print(function4_play_the_game.play_the_game("Example Home Name", "Example Away Name"))

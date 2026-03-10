@@ -4,7 +4,7 @@
 variable and use this value to determine which 
 function to call next.
 """
-
+#making a function
 def display_menu():
     print("\n--Menu--")
     print("1. Choose Teams")

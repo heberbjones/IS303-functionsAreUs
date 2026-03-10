@@ -40,7 +40,6 @@ while choice != 3:
            iLossCount += 1
 
     elif choice == 3:
-        function5_display_record.display_record(iWinCount, iLossCount)
-        
-    elif choice == 4 :
+        function5_display_record.display_record()
+    elif choice == 4:
         print("Goodbye!")

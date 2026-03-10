@@ -12,3 +12,5 @@ def display_intro():
     print("Here are the game rules:")
     sPlayerName = input("Enter your name to begin: ")
     return sPlayerName
+
+    

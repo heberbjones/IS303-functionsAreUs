@@ -11,6 +11,3 @@ I figure we can put all the tasks we need to do in one place, and then we can as
 4. Play the game receiving both team names. Generate random scores without ties. Return W or L.
 
 5. Display the final record for a team. Receive the home team data and display information.
-
-## Heber Tasks
-I'll work on function 1 for now, if it comes to it I can do function 4 as well. I'm also planning on combining it all into the MainProgram.py file.

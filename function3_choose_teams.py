@@ -26,12 +26,15 @@ def choose_team(remove_team=None):
 
     print("\nChoose a Team:")
 
+    # FIX: Print all teams first, THEN ask for input (input was inside the loop before)
     for i in range(len(teams)):
         print(f"{i+1}. {teams[i]}")
-        
-        choice = int(input("Enter the number of the team: "))
-        
-        while choice < 1 or choice > len(teams):
-            choice = int(input("Invalid choice. Enter a valid number: "))
-            selected_team = teams[choice - 1]
-            return selected_team
+
+    choice = int(input("Enter the number of the team: "))
+
+    # FIX: Validation loop is now outside the for loop, and return is after validation
+    while choice < 1 or choice > len(teams):
+        choice = int(input("Invalid choice. Enter a valid number: "))
+
+    selected_team = teams[choice - 1]
+    return selected_team
